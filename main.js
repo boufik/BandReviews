@@ -1219,17 +1219,21 @@ const alternativeRockData =
         "How You Remind Me": [93, "Nickelback - 2001", "https://www.youtube.com/watch?v=Aiay8I5IPB8"],
         "Iris": [92, "Goo Goo Dolls - 1998", "https://www.youtube.com/watch?v=NdYWuo9OFAw"],
         "Zombie": [92, "The Cranberries - 1994", "https://www.youtube.com/watch?v=95HqlWRFrAk"],
-        "Sex On Fire": [92, "Kings Of Leon - 2008", "https://www.youtube.com/watch?v=RF0HhrwIwp0"],
+        "Lovesong": [92, "The Cure - 1989", "https://www.youtube.com/watch?v=ks_qOI0lzho"],
+        "Sex On Fire": [91, "Kings Of Leon - 2008", "https://www.youtube.com/watch?v=RF0HhrwIwp0"],
         "Ruby": [91, "Kaiser Chiefs - 2007", "https://www.youtube.com/watch?v=qObzgUfCl28"],
         "In The Shadows": [91, "Rasmus - 2003", "https://www.youtube.com/watch?v=7gwO8-oqwFw"],
         "Friday I'm In Love": [91, "The Cure - 1992", "https://www.youtube.com/watch?v=mGgMZpGYiy"],
         "Teenagers": [91, "My Chemical Romance - 2007", "https://www.youtube.com/watch?v=k6EQAOmJrbw"],
         "The Pretender": [91, "Foo Fighters - 2007", "https://www.youtube.com/watch?v=SBjQ9tuuTJQ"],
         "What's Up": [90, "4 Non Blondes - 1993", "https://www.youtube.com/watch?v=6NXnxTNIWkc"],
+        "The One I Love": [89, "R.E.M. - 1987", "https://www.youtube.com/watch?v=j7oQEPfe-O8"],
+        "Promises": [89, "The Cranberries - 1999", "https://www.youtube.com/watch?v=hUFPooqKllA"],
         "Are You Gonna Be My Girl": [89, "Jet - 2003", "https://www.youtube.com/watch?v=tuK6n2Lkza0"],
         "The Reason": [89, "Hoobastank - 2003", "https://www.youtube.com/watch?v=fV4DiAyExN0"],
         "Reptilia": [88, "The Strokes - 2003", "https://www.youtube.com/watch?v=b8-tXG8KrWs"],
-        "Black Hole Sun": [87, "Soundgarden - 1994", "https://www.youtube.com/watch?v=3mbBbFH9fAg"],
+        "Rockstar": [88, "Nickelback - 2005", "https://www.youtube.com/watch?v=_1hgVcNzvzY"],
+        "Black Hole Sun": [87, "Soundgarden - 1994", "https://www.youtube.com/watch?v=3mbBbFH9fAg"]
     },
     members: [
         { name: "Gwen Stefani", role: "No Doubt: Lead Vocalist", yearsActive: "1986–2015 and 2024-present", image: "./images/members/alternativeRock/GwenStefani.png" },
@@ -1364,6 +1368,7 @@ const classicRockData =
         "Child On Time": [92, "Deep Purple - 1970", "https://www.youtube.com/watch?v=PfAWReBmxEs"],
         "Black Betty": [91, "Ram Jam - 1977", "https://www.youtube.com/watch?v=I_2D8Eo15wE"],
         "Rosanna": [91, "Toto - 1982", "https://www.youtube.com/watch?v=qmOLtTGvsbM"],
+        "Aerosmith - Cryin'": [91, "Aerosmith - 1993", "https://www.youtube.com/watch?v=qfNmyxV2Ncw"],
         "Whole Lotta Love": [90, "Led Zeppelin - 1969", "https://www.youtube.com/watch?v=HQmmM_qwG4k"],
         "Fortunate Son": [90, "Creedence Clearwater Revival - 1969", "https://www.youtube.com/watch?v=ZWijx_AgPiA"],
         "Sweet Home Alabama": [90, "Lynyrd Skynyrd - 1974", "https://www.youtube.com/watch?v=-p8GXZcdrIk"],
@@ -1452,10 +1457,14 @@ const hardRockData =
         "Sharp Dressed Man": [94, "ZZ Top - 1983", "https://www.youtube.com/watch?v=7wRHBLwpASw"],
         "Anastasia": [93, "Slash ft Myles Kennedy and The Conspirators - 2012", "https://www.youtube.com/watch?v=sWljWFSdx_g"],
         "The Passenger": [93, "Iggy Pop - 1977", "https://www.youtube.com/watch?v=-fWw7FE9tTo"],
+        "Bang Bang": [93, "Monophonics - 2012", "https://www.youtube.com/watch?v=xyWHRC8A_uU"],
+        "What a Wonderful World": [93, "Ramones - 1993", "https://www.youtube.com/watch?v=wRMrAQuccEo"],
         "Poison": [92, "Alice Cooper - 1989", "https://www.youtube.com/watch?v=Qq4j1LtCdww"],
         "I Was Made For Lovin' You": [91, "Kiss - 1979", "https://www.youtube.com/watch?v=ZhIsAZO5gl0"],
-        "Born To Be Wild": [90, "Steppenwolf - 1968", "https://www.youtube.com/watch?v=egMWlD3fLJ8"],
-        "Lick It Up": [90, "Kiss - 1983", "https://www.youtube.com/watch?v=Gcj34XixuYg"]
+        "Nightmare": [91, "MSG - 1992", "https://www.youtube.com/watch?v=9rHXkMitp3s"],
+        "Love Bites": [90, "Def Leppard - 1987", "https://www.youtube.com/watch?v=W4XiSFyYRE8"],
+        "Born To Be Wild": [89, "Steppenwolf - 1968", "https://www.youtube.com/watch?v=egMWlD3fLJ8"],
+        "Lick It Up": [88, "Kiss - 1983", "https://www.youtube.com/watch?v=Gcj34XixuYg"]
     },
     members: [
         { name: "Buck Dharma", role: "Blue Öyster Cult: Guitarist", yearsActive: "1967-present", image: "./images/members/hardRock/BuckDharma.png" },
@@ -1473,7 +1482,15 @@ const hardRockData =
         { name: "Paul Stanley", role: "Kiss: Lead Vocalist | Rhythm Guitarist", yearsActive: "1973–2023 and 2025", image: "./images/members/hardRock/PaulStanley.png" },
         { name: "Gene Simmons", role: "Kiss: Bassist", yearsActive: "1973–2023 and 2025", image: "./images/members/hardRock/GeneSimmons.png" },
         { name: "John Kay", role: "Steppenwolf: Lead Vocalist", yearsActive: "1967–1972, 1974–1976 and 1980–2018", image: "./images/members/hardRock/JohnKay.png" },
-        { name: "Nick St. Nicholas", role: "Steppenwolf: Bassist", yearsActive: "1967–1972, 1974–1976 and 1980–2018", image: "./images/members/hardRock/NickStNicholas.png" }
+        { name: "Nick St. Nicholas", role: "Steppenwolf: Bassist", yearsActive: "1967–1972, 1974–1976 and 1980–2018", image: "./images/members/hardRock/NickStNicholas.png" },
+        { name: "Michael Schenker", role: "MSG: Lead Guitarist", yearsActive: "1979–present", image: "./images/members/hardRock/MichaelSchenker.png" },
+        { name: "Robin McAuley", role: "MSG: Lead Vocalist", yearsActive: "1986–1993 and 2008–2011", image: "./images/members/hardRock/RobinMcAuley.png" },
+        { name: "Kelly Finnigan", role: "Monophonics: Lead Vocalist", yearsActive: "2012–present", image: "./images/members/hardRock/KellyFinnigan.png" },
+        { name: "Ian McDonald", role: "Monophonics: Guitarist", yearsActive: "2005–present", image: "./images/members/hardRock/IanMcDonald.png" },
+        { name: "Joey Ramone", role: "Ramones: Lead Vocalist", yearsActive: "1974–1996", image: "./images/members/hardRock/JoeyRamone.png" },
+        { name: "Johnny Ramone", role: "Ramones: Lead Guitarist", yearsActive: "1974–1996", image: "./images/members/hardRock/JohnnyRamone.png" },
+        { name: "Joe Elliott", role: "Def Leppard: Lead Vocalist", yearsActive: "1977–present", image: "./images/members/hardRock/JoeElliott.png" },
+        { name: "Phil Collen", role: "Def Leppard: Lead Guitarist", yearsActive: "1982–present", image: "./images/members/hardRock/PhilCollen.png" }
     ],
     albums: [
         { name: "Agents of Fortune", description: "Blue Öyster Cult", year: 1976, image: "./images/albums/hardRock/AgentsOfFortune.png" },
@@ -1487,7 +1504,11 @@ const hardRockData =
         { name: "Destroyer", description: "Kiss", year: 1976, image: "./images/albums/hardRock/Destroyer.png" },
         { name: "Love Gun", description: "Kiss", year: 1977, image: "./images/albums/hardRock/LoveGun.png" },
         { name: "Dynasty", description: "Kiss", year: 1979, image: "./images/albums/hardRock/Dynasty.png" },
-        { name: "Steppenwolf", description: "Steppenwolf", year: 1968, image: "./images/albums/hardRock/Steppenwolf.png" }
+        { name: "Steppenwolf", description: "Steppenwolf", year: 1968, image: "./images/albums/hardRock/Steppenwolf.png" },
+        { name: "Nightmare: The Acoustic M.S.G.", description: "MSG", year: 1992, image: "./images/albums/hardRock/NightmareAcousticMSG.png" },
+        { name: "In Your Brain", description: "Monophonics", year: 2012, image: "./images/albums/hardRock/InYourBrain.png" },
+        { name: "Acid Eaters", description: "Ramones", year: 1993, image: "./images/albums/hardRock/AcidEaters.png" },
+        { name: "Hysteria", description: "Def Leppard", year: 1987, image: "./images/albums/hardRock/Hysteria.png" }
     ]
 };
 
