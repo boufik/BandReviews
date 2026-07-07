@@ -1510,14 +1510,20 @@ const metalData =
         "Bring Me To Life": [97, "Evanescence - 2003", "https://www.youtube.com/watch?v=3YxaaGgTQYM"],
         "Last Resort": [96, "Papa Roach - 2000", "https://www.youtube.com/watch?v=j0lSpNtjPM8"],
         "The Sound Of Silence": [95, "Disturbed - 2015", "https://www.youtube.com/watch?v=u9Dg-g7t2l4"],
-        "Killing In The Name": [94, "Rage Against The Machine - 1992", "https://www.youtube.com/watch?v=bWXazVhlyxQ"],
+        "Come Out And Play": [95, "The Offspring - 1994", "https://www.youtube.com/watch?v=1jOk8dk-qaU"],
+        "Self Esteem": [94, "The Offspring - 1994", "https://www.youtube.com/watch?v=Abrn8aVQ76Q"],
+        "Killing In The Name": [93, "Rage Against The Machine - 1992", "https://www.youtube.com/watch?v=bWXazVhlyxQ"],
         "Sweet Dreams": [93, "Marilyn Manson Version - 1995", "https://www.youtube.com/watch?v=QUvVdTlA23w"],
         "The Kids Aren't Alright": [93, "The Offspring - 1999", "https://www.youtube.com/watch?v=7iNbnineUCI"],
         "Iron Man": [93, "Black Sabbath - 1970", "https://www.youtube.com/watch?v=8aQRq9hhekA"],
         "Paranoid": [92, "Black Sabbath - 1970", "https://www.youtube.com/watch?v=0qanF-91aJo"],
+        "Careless Whisper": [92, "Seether - 2009", "https://www.youtube.com/watch?v=B5lzYG83yVQ"],
+        "Behind Blue Eyes": [91, "Limp Bizkit - 2003", "https://www.youtube.com/watch?v=-0RQU0LyJqg"],
         "Lithium": [90, "Evanescence - 2006", "https://www.youtube.com/watch?v=PJGpsL_XYQI"],
         "I Hate Everything About You": [89, "Three Days Grace - 2003", "https://www.youtube.com/watch?v=d8ekz_CSBVg"],
         "My Immortal": [88, "Evanescence - 2003", "https://www.youtube.com/watch?v=5anLPw0Efmo"],
+        "Going Under": [88, "Evanescence - 2003", "https://www.youtube.com/watch?v=CdhqVtpR2ts"],
+        "Pretty Fly (For a White Guy)": [87, "The Offspring - 1998", "https://www.youtube.com/watch?v=QtTR-_Klcq8"]
     },
     members: [
         { name: "Jon Oliva", role: "Savatage: Keyboardist", yearsActive: "1978–2002 and 2014-present", image: "./images/members/metal/JonOliva.png" },
@@ -1538,7 +1544,11 @@ const metalData =
         { name: "Adam Gontier", role: "Three Days Grace: Lead Vocalist | Rhythm Guitarist", yearsActive: "1992–1995 and 1997–present", image: "./images/members/metal/AdamGontier.png" },
         { name: "Neil Sanderson", role: "Three Days Grace: Drummer", yearsActive: "1992–1995 and 1997–present", image: "./images/members/metal/NeilSanderson.png" },
         { name: "Dexter Holland", role: "The Offspring: Lead Vocalist | Rhythm Guitarist", yearsActive: "1984–present", image: "./images/members/metal/DexterHolland.png" },
-        { name: "Noodles", role: "The Offspring: Lead Guitarist | Backing Vocalist", yearsActive: "1984–present", image: "./images/members/metal/Noodles.png" }
+        { name: "Noodles", role: "The Offspring: Lead Guitarist | Backing Vocalist", yearsActive: "1984–present", image: "./images/members/metal/Noodles.png" },
+        { name: "Fred Durst", role: "Limp Bizkit: Lead Vocalist", yearsActive: "1994–present", image: "./images/members/metal/FredDurst.png" },
+        { name: "Wes Borland", role: "Limp Bizkit: Lead Guitarist", yearsActive: "1994–2001, 2004–2006 and 2009–present", image: "./images/members/metal/WesBorland.png" },
+        { name: "Shaun Morgan", role: "Seether: Lead Vocalist | Guitarist", yearsActive: "1999–present", image: "./images/members/metal/ShaunMorgan.png" },
+        { name: "Dale Stewart", role: "Seether: Bassist | Backing Vocalist", yearsActive: "1999–present", image: "./images/members/metal/DaleStewart.png" }
     ],
     albums: [
         { name: "Hall of the Mountain King", description: "Savatage", year: 1987, image: "./images/albums/metal/HallOfTheMountainKing.png" },
@@ -1552,7 +1562,9 @@ const metalData =
         { name: "The Sickness", description: "Disturbed", year: 2000, image: "./images/albums/metal/TheSickness.png" },
         { name: "Evil Empire", description: "Rage Against The Machine", year: 1996, image: "./images/albums/metal/EvilEmpire.png" },
         { name: "One-X", description: "Three Days Grace", year: 2006, image: "./images/albums/metal/One-X.png" },
-        { name: "Americana", description: "The Offspring", year: 1998, image: "./images/albums/metal/Americana.png" }
+        { name: "Americana", description: "The Offspring", year: 1998, image: "./images/albums/metal/Americana.png" },
+        { name: "Results May Vary", description: "Limp Bizkit", year: 2003, image: "./images/albums/metal/ResultsMayVary.png" },
+        { name: "Finding Beauty in Negative Spaces", description: "Seether", year: 2007, image: "./images/albums/metal/FindingBeautyInNegativeSpaces.png" }
     ]
 };
 
