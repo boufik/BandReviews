@@ -1515,12 +1515,83 @@ const hardRockData =
 
 
 
-// 28. More: Metal
+// 28. More: Pop Rock
+const popRockData =
+{
+    id: "pop-rock",
+    title: "More: Pop Rock",
+    score: 95,
+    image: "./images/background/popRockLogo.png",
+    description: "A bright, melody-driven collection sitting at the crossroads of pop and rock. From the anthemic sing-alongs of James and Sunrise Avenue, to the polished hooks Benson Boone, Tina Turner as well as the timeless staples from Blondie and Supertramp, this playlist celebrates songs built on big choruses, emotional immediacy and radio-ready energy.",
+    review: "Pop rock lives and dies on the strength of its hooks. This collection is packed with them, including the wistful nostalgia of Reamonn's ballads, the effortless swagger of Mando Diao and the widescreen craftsmanship of Supertramp. Every track here is designed to stick itself in your head.",
+    genres: ["Pop Rock", "Pop", "Rock", "Songs span: 1978 - 2024"],
+    playlistLink: "https://www.youtube.com/playlist?list=PLQkynwv_qyyU",
+    favouriteSongs: {
+        "Fairytale Gone Bad": [97, "Sunrise Avenue - 2006", "https://www.youtube.com/watch?v=OUyfQLd3bCs"],
+        "Dance with Somebody": [96, "Mando Diao - 2009", "https://www.youtube.com/watch?v=qkyRHRIvoGo"],
+        "Tainted Love": [96, "Kwan - 2003", "https://www.youtube.com/watch?v=dT5O79QXjzs"],
+        "The Logical Song": [95, "Supertramp - 1979", "https://www.youtube.com/watch?v=kln_bIndDJg"],
+        "Getting Away with It": [94, "James - 2001", "https://www.youtube.com/watch?v=CETTzv3fTG0"],
+        "Tonight": [93, "Reamonn - 2006", "https://www.youtube.com/watch?v=jtoncUzV6nA"],
+        "Supergirl": [93, "Reamonn - 2000", "https://www.youtube.com/watch?v=cpF7zmFJlyc"],
+        "U + Ur Hand": [92, "P!nk - 2006", "https://www.youtube.com/watch?v=YUtHjOvPKT0"],
+        "Breakfast in America": [92, "Supertramp - 1979", "https://www.youtube.com/watch?v=aQdoUUi3iJ8"],
+        "One Way or Another": [92, "Blondie - 1978", "https://www.youtube.com/watch?v=_zBwRDEFMRY"],
+        "Beautiful Things": [91, "Benson Boone - 2024", "https://www.youtube.com/watch?v=Oa_RSwwpPaA"],
+        "What Do You Want from Me?": [90, "Monaco - 1997", "https://www.youtube.com/watch?v=F4oyzy2tPAI"],
+        "The Best": [88, "Tina Turner - 1989", "https://www.youtube.com/watch?v=GC5E8ie2pdM"],
+        "You Found Me": [87, "The Fray - 2008", "https://www.youtube.com/watch?v=jFg_8u87zT0"],
+        "Wherever You Will Go": [85, "The Calling - 2001", "https://www.youtube.com/watch?v=iAP9AF6DCu4"],
+    },
+    members: [
+        { name: "Tim Booth", role: "James: Lead Vocalist", yearsActive: "1982–present", image: "./images/members/popRock/TimBooth.png" },
+        { name: "Jim Glennie", role: "James: Bassist", yearsActive: "1982–present", image: "./images/members/popRock/JimGlennie.png" },
+        { name: "Samu Haber", role: "Sunrise Avenue: Vocalist | Guitarist", yearsActive: "2002–2020", image: "./images/members/popRock/SamuHaber.png" },
+        { name: "Raul Ruutu", role: "Sunrise Avenue: Bassist", yearsActive: "2002–2020", image: "./images/members/popRock/RaulRuutu.png" },
+        { name: "Mari Liisa Pajalahti", role: "Kwan: Lead Vocalist", yearsActive: "20020–present", image: "./images/members/popRock/MariLiisaPajalahti.png" },
+        { name: "Björn Dixgård", role: "Mando Diao: Vocalist | Guitarist", yearsActive: "1999–present", image: "./images/members/popRock/BjornDixgard.png" },
+        { name: "Gustaf Norén", role: "Mando Diao: Vocalist | Guitarist", yearsActive: "1999–2015", image: "./images/members/popRock/GustafNoren.png" },
+        { name: "Rea Garvey", role: "Reamonn: Lead Vocalist", yearsActive: "2000–2010", image: "./images/members/popRock/ReaGarvey.png" },
+        { name: "Uwe Bossert", role: "Reamonn: Lead Guitarist", yearsActive: "2000–2010", image: "./images/members/popRock/UweBossert.png" },
+        { name: "P!nk", role: "Vocalist", yearsActive: "1995–present", image: "./images/members/popRock/Pink.png" },
+        { name: "Debbie Harry", role: "Blondie: Lead Vocalist", yearsActive: "1974–present", image: "./images/members/popRock/DebbieHarry.png" },
+        { name: "Chris Stein", role: "Blondie: Lead Guitarist", yearsActive: "1974–present", image: "./images/members/popRock/ChrisStein.png" },
+        { name: "Benson Boone", role: "Vocalist", yearsActive: "2021–present", image: "./images/members/popRock/BensonBoone.png" },
+        { name: "Alex Band", role: "The Calling: Lead Vocalist", yearsActive: "1996–present", image: "./images/members/popRock/AlexBand.png" },
+        { name: "Aaron Kamin", role: "The Calling: Lead Guitarist", yearsActive: "1996–2005", image: "./images/members/popRock/AaronKamin.png" },
+        { name: "Tina Turner", role: "Vocalist", yearsActive: "1957–2009", image: "./images/members/popRock/TinaTurner.png" },
+        { name: "Isaac Slade", role: "The Fray: Lead Vocalist | Pianist", yearsActive: "2002–present", image: "./images/members/popRock/IsaacSlade.png" },
+        { name: "Joe King", role: "The Fray: Guitarist | Vocalist", yearsActive: "2002–present", image: "./images/members/popRock/JoeKing.png" },
+        { name: "Rick Davies", role: "Supertramp: Vocalist | Keyboardist", yearsActive: "1970–present", image: "./images/members/popRock/RickDavies.png" },
+        { name: "Roger Hodgson", role: "Supertramp: Vocalist | Guitarist", yearsActive: "1969–1983", image: "./images/members/popRock/RogerHodgson.png" }
+    ],
+    albums: [
+        { name: "Pleased to Meet You", description: "James", year: 2001, image: "./images/albums/popRock/PleasedToMeetYou.png" },
+        { name: "On the Way to Wonderland", description: "Sunrise Avenue", year: 2006, image: "./images/albums/popRock/OnTheWayToWonderland.png" },
+        { name: "Dynasty", description: "Kwan", year: 2001, image: "./images/albums/popRock/Dynasty.png" },
+        { name: "Give Me Fire", description: "Mando Diao", year: 2009, image: "./images/albums/popRock/GiveMeFire.png" },
+        { name: "Reamonn", description: "Reamonn", year: 2006, image: "./images/albums/popRock/Reamonn.png" },
+        { name: "Tuesday", description: "Reamonn", year: 2000, image: "./images/albums/popRock/Tuesday.png" },
+        { name: "I'm Not Dead", description: "P!nk", year: 2006, image: "./images/albums/popRock/ImNotDead.png" },
+        { name: "Music for Pleasure", description: "Monaco", year: 1997, image: "./images/albums/popRock/MusicForPleasure.png" },
+        { name: "Parallel Lines", description: "Blondie", year: 1978, image: "./images/albums/popRock/ParallelLines.png" },
+        { name: "Fireworks & Rollerblades", description: "Benson Boone", year: 2024, image: "./images/albums/popRock/FireworksAndRollerblades.png" },
+        { name: "Camino Palmero", description: "The Calling", year: 2001, image: "./images/albums/popRock/CaminoPalmero.png" },
+        { name: "Foreign Affair", description: "Tina Turner", year: 1989, image: "./images/albums/popRock/ForeignAffair.png" },
+        { name: "The Fray", description: "The Fray", year: 2009, image: "./images/albums/popRock/TheFray.png" },
+        { name: "Breakfast in America", description: "Supertramp", year: 1979, image: "./images/albums/popRock/BreakfastInAmerica.png" }
+    ]
+};
+
+
+
+
+// 29. More: Metal
 const metalData =
 {
     id: "metal",
     title: "More: Metal",
-    score: 95,
+    score: 94,
     image: "./images/background/metalLogo.png",
     description: "A powerful and emotionally charged collection spanning the heaviest and most intense corners of the metal world. From Black Sabbath's pioneering doom to Evanescence's orchestral gothic metal, this playlist represents metal in all its raw, aggressive and deeply human forms.",
     review: "Metal at its best is catharsis, with this playlist delivering that in full. Whether it's the symphonic grandeur of Savatage, the righteous fury of Rage Against The Machine or the desperate sincerity of Papa Roach and Three Days Grace, every song here carries a real emotional weight. This is music that hits hardest when life hits hardest.",
@@ -1592,12 +1663,12 @@ const metalData =
 
 
 
-// 29. More: Folk and Country
+// 30. More: Folk and Country
 const folkCountryData =
 {
     id: "folk-and-country",
     title: "More: Folk and Country",
-    score: 94,
+    score: 93,
     image: "./images/background/folkCountryLogo.png",
     description: "A curated collection spanning the most iconic voices in folk, country and roots music. From Johnny Cash's outlaw storytelling and redemptive baritone to Bob Dylan's revolutionary poetic lyricism and the Dropkick Murphys' Celtic punk anthems, this playlist captures the raw emotional power of music rooted in life, struggle and personal identity.",
     review: "Only a few genres can touch our souls and hearts as folk and country. Johnny Cash's matured dignity, Dylan's unmatched wordcraft and the Dropkick Murphys' rebellious working-class spirit represent a different face of the same truth-telling tradition. A music that doesn't flinch from pain, pride or the human condition.",
@@ -1660,8 +1731,9 @@ const bandsData = [
     alternativeRockData,    // 25
     classicRockData,        // 26
     hardRockData,           // 27
-    metalData,              // 28
-    folkCountryData         // 29
+    popRockData,            // 28
+    metalData,              // 29
+    folkCountryData         // 30
 ]
 
 
