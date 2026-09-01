@@ -11,8 +11,7 @@
   --text-primary: #E0E0E0;
   --text-secondary: #B0B0B0;
   --accent-color: #9B111E;
-  /* --accent-hover: #8218a0; */
-  --accent-hover: green;
+  --accent-hover: #9B111E;
   --border-color: #2C2C2C;
   /* --overlay-gradient: linear-gradient(to top, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.25)); */
   --overlay-gradient: linear-gradient(to top, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55));
